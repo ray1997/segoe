@@ -1,0 +1,49 @@
+/**
+* @name SegoeE
+* @author Toon#4854
+* @description Based on "OldDiscordFont" I ask OpenAI to replace all font with Segoe UI
+* @version 1.0.0
+* @source https://github.com/snappycreeper/OldDiscordFont
+*/
+
+:root {
+  --font-primary: Segoe UI,gg sans,"Helvetica Neue",Helvetica,Arial,sans-serif!important;
+  --font-display: Segoe UI,gg sans,"Helvetica Neue",Helvetica,Arial,sans-serif!important;
+}
+
+@font-face {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://raw.githubusercontent.com/ray1997/segoe/win11/usr/share/fonts/TTF/segoeui.ttf) format("truetype");
+}
+@font-face {
+  font-family: Segoe UI;
+  font-style: italic;
+  font-weight: 300;
+  src: url(https://raw.githubusercontent.com/ray1997/segoe/win11/usr/share/fonts/TTF/segoeuii.ttf) format("truetype");
+}
+@font-face {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://raw.githubusercontent.com/ray1997/segoe/win11/usr/share/fonts/TTF/segoeui.ttf) format("truetype");
+}
+@font-face {
+  font-family: Segoe UI;
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://raw.githubusercontent.com/ray1997/segoe/win11/usr/share/fonts/TTF/segoeuii.ttf) format("truetype");
+}
+@font-face {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://raw.githubusercontent.com/ray1997/segoe/win11/usr/share/fonts/TTF/segoeui.ttf) format("truetype");
+}
+@font-face {
+  font-family: Segoe UI;
+  font-style: italic;
+  font-weight: 500;
+  src: url(https://raw.githubusercontent.com/ray1997/segoe/win11/usr/share/fonts/TTF/segoeuii.ttf) format("truetype");
+}
